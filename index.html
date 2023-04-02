@@ -1,0 +1,26 @@
+<html>
+  
+<body style="text-align:center;">
+    <h3>Fillup the textboxes</h3>
+   
+    <label for="1st text">1st Number</label><br>
+    <input type="number" id="val1" value="number1"><br>
+    <label for="2nd Text">2nd Number</label><br>
+    <input type="number" id="val2" value="number2"><br>
+    <button type="submit" onclick="myFunction()">Submit</button>
+    <p id="demo"></p>
+  
+      
+    <script>
+      
+   
+    function myFunction() {
+        var x = document.getElementById("val1").value;
+        var y=document.getElementById("val2").value;
+        var sum=x*y;
+        alert("The sum is: "+sum);
+    }
+    </script>
+</body>
+  
+</html>
